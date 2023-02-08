@@ -20,33 +20,33 @@ GlobalProc = None
 speaker = None
 
 class Event(object):
-    def init(plugin_event, Proc):
+    def init(self, Proc):
         global GlobalProc
         GlobalProc = Proc 
 
-    def private_message(plugin_event, Proc):
-        reply(plugin_event, Proc)
+    def private_message(self, Proc):
+        reply(self, Proc)
 
-    def init_after(plugin_event, Proc):
+    def init_after(self, Proc):
         global speaker
         global dataConfig
         speaker = win32com.client.Dispatch("SAPI.SpVoice")
 
-    def group_message(plugin_event, Proc):
-        reply(plugin_event, Proc)
+    def group_message(self, Proc):
+        reply(self, Proc)
 
-    def poke(plugin_event, Proc):
+    def poke(self, Proc):
         pass
 
-    def save(plugin_event, Proc):
+    def save(self, Proc):
         logg("关闭服务ing...")
 
-    def menu(plugin_event, Proc):
-        if plugin_event.data.namespace == 'OlivaBiliLive':  # type: ignore
-            if plugin_event.data.event == 'OlivaBiliLive_Menu_Config':  # type: ignore
-                logg("有笨蛋打开了配置")
-            elif plugin_event.data.event == 'OlivaBiliLive_Menu_About':  # type: ignore
-                pass
+    def menu(self, Proc):
+        if (
+            self.data.namespace == 'OlivaBiliLive'
+            and self.data.event == 'OlivaBiliLive_Menu_Config'
+        ):
+            logg("有笨蛋打开了配置")
 
 def logg(msg,level=2):
     GlobalProc.log(level,f"[OlivaBiliLive] : {msg}")
@@ -98,8 +98,8 @@ async def start(room: int):
             uid = get_cookies('DedeUserID')
             jct = get_cookies('bili_jct')
 
-            if uid == None or jct == None:
-                logg(f'获取 cookies 失败')
+            if uid is None or jct is None:
+                logg('获取 cookies 失败')
                 return
             if not session_exist:
 

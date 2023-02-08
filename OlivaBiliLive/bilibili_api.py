@@ -96,10 +96,9 @@ async def send_danmu(**fields) -> bool:
             return False
 
 def get_cookies(name: str) -> any:
-    for cookie in user_cookies:
-        if cookie.key == name:
-            return cookie.value
-    return None
+    return next(
+        (cookie.value for cookie in user_cookies if cookie.key == name), None
+    )
 
 async def mute_user(tuid: int, roomid: int) -> bool:
     token = get_cookies('bili_jct')
@@ -133,14 +132,16 @@ async def room_slient(roomid: int, slientType: str, level: int, minute: int) -> 
     token = get_cookies('bili_jct')
     async with ClientSession(cookie_jar=user_cookies) as session:
         try:
-            res = await _post(session, ROOM_SLIENT_URL,
+            res = await _post(
+                session,
+                ROOM_SLIENT_URL,
                 csrf=token,
                 csrf_token=token,
                 visit_id='',
                 room_id=str(roomid),
-                type=str(slientType),
+                type=slientType,
                 minute=str(minute),
-                level=str(level)
+                level=str(level),
             )
             return res['code'] == 0
         except Exception as e:

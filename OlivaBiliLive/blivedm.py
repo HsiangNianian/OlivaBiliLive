@@ -102,7 +102,7 @@ class BLiveClient:
 
         self._heartbeat_interval = heartbeat_interval
         # noinspection PyProtectedMember
-        self._ssl = ssl if ssl else ssl_._create_unverified_context()
+        self._ssl = ssl or ssl_._create_unverified_context()
         self._websocket = None
         self._heartbeat_timer_handle = None
 

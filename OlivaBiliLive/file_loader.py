@@ -17,9 +17,8 @@ def make_folder(folder: str) -> bool:
     path = Path(folder)
     if path.exists():
         return False
-    else:
-        path.mkdir(exist_ok=True, parents=True)
-        return True
+    path.mkdir(exist_ok=True, parents=True)
+    return True
 
 
 def load_config(yml: str, default_values: dict) -> any:
