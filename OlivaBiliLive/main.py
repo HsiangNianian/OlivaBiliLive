@@ -1,8 +1,8 @@
 import OlivOS
 import OlivaBiliLive
 
-import SpeakEngine
-import win32com.client
+# import SpeakEngine
+# import win32com.client
 
 import asyncio
 from genericpath import exists
@@ -17,7 +17,7 @@ from functools import wraps
 SESSION_DATA_PATH = 'plugin/data/OlivaBiliLive/data/session.json'
 
 GlobalProc = None
-speaker = None
+# speaker = None
 
 class Event(object):
     def init(self, Proc):
@@ -28,9 +28,9 @@ class Event(object):
         reply(self, Proc)
 
     def init_after(self, Proc):
-        global speaker
+#         global speaker
         global dataConfig
-        speaker = win32com.client.Dispatch("SAPI.SpVoice")
+#         speaker = win32com.client.Dispatch("SAPI.SpVoice")
 
     def group_message(self, Proc):
         reply(self, Proc)
