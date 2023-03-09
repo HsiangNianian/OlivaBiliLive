@@ -34,5 +34,3 @@ __OlivaBiliLive-Plugins 插件库:  [HsiangNianian/OlivaBiliLive-Plugins](https:
 
 - [blivedm](https://github.com/xfgryujk/blivedm)
 - [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
-
->! 仑子会在以后的版本直接更新bililive !<
