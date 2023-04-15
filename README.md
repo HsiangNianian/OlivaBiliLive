@@ -1,16 +1,16 @@
-# Plugin Maintenance Notice
+# 📢Plugin Maintenance Notice
 
 Due to the lack of updates and maintenance over an extended period of time, there may be various big and small issues with using this plugin.
 
-## Upgrade OlivOS
+## ⏫Upgrade OlivOS
 
 To continue using the Bilibili Danmaku Dice plugin directly on Qingguo, we recommend upgrading OlivOS to the latest version and choosing to log in with the Bilibili Danmaku protocol.
 
-## Plugin Support
+## ✨Plugin Support
 
 This plugin provides native support and allows you to write various interesting plugins.
 
-## Join Group Chat
+## 🐱‍🚀Join Group Chat
 
 If you wish to continue using this plugin, you can join our group chat (Group ID: 971050440) and provide more detailed information. I will make efforts to fix it in my free time. 
 
@@ -36,14 +36,14 @@ __WebSocket library:  [xfgryujk/blivedm](https://github.com/xfgryujk/blivedm)__
 
 __OlivaBiliLive-Plugins plugin library:  [HsiangNianian/OlivaBiliLive-Plugins](https://github.com/HsiangNianian/OlivaBiliLive-Plugins)__
 
-### Download
+### ⬇Download
 [github release](https://github.com/HsiangNianian/OlivaBiliLive/releases/latest)
 
-### Run
+### 🎆Run
 
-Test run: `Start live broadcast`
+Test run: `Start`
 
-### Reference
+### 🧾Reference
 
 - [blivedm](https://github.com/xfgryujk/blivedm)
 - [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
