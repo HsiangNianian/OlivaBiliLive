@@ -1,36 +1,51 @@
+# Plugin Maintenance Notice
+
+Due to the lack of updates and maintenance over an extended period of time, there may be various big and small issues with using this plugin.
+
+## Upgrade OlivOS
+
+To continue using the Bilibili Danmaku Dice plugin directly on Qingguo, we recommend upgrading OlivOS to the latest version and choosing to log in with the Bilibili Danmaku protocol.
+
+## Plugin Support
+
+This plugin provides native support and allows you to write various interesting plugins.
+
+## Join Group Chat
+
+If you wish to continue using this plugin, you can join our group chat (Group ID: 971050440) and provide more detailed information. I will make efforts to fix it in my free time. 
+
 ![](https://ss.jyunko.cn/assets/OlivaBiliLive.png)
 
 ## OlivaBiliLive
-* *插件基于[OlivOS](https://github.com/OlivOS-Team/OlivOS)*
-* *原作[BililiveBot](https://github.com/eric2788/BiliLiveBot)*
+* *Plugin based on [OlivOS](https://github.com/OlivOS-Team/OlivOS)*
+* *Original work of [BililiveBot](https://github.com/eric2788/BiliLiveBot)*
 
 ![](https://img.shields.io/github/last-commit/HsiangNianian/OlivaBiliLive) [![CI](https://github.com/HsiangNianian/OlivaBiliLive/actions/workflows/ci.yml/badge.svg)](https://github.com/HsiangNianian/OlivaBiliLive/actions/workflows/ci.yml) [![](https://img.shields.io/github/downloads/HsiangNianian/OlivaBiliLive/total)](https://github.com/HsiangNianian/OlivaBiliLive/tags) [![](https://img.shields.io/github/v/release/HsiangNianian/OlivaBiliLive)](https://github.com/HsiangNianian/OlivaBiliLive/releases)
 
-> 可插件化管理的B站直播间机器人
+> Bilibili live room robot that can be managed by plugins.
 >
-> 测试直播间:[基于OlivOS的B站弹幕对接机器人测试
-> ](https://live.bilibili.com/21752074?visit_id=5jas1suyf6k0)
+> Test live room: [Testing Bilibili Danmaku Dice robot based on OlivOS](https://live.bilibili.com/21752074?visit_id=5jas1suyf6k0)
 
-目前机器人可以执行
+Currently, the robot can perform:
 
-- 发送弹幕
-- 禁言用户 (需要房管权限)
-- 全局禁言 (需要房管权限)
-- 新增屏蔽字 (需要房管权限)
-- 删除屏蔽字 (需要房管权限)
+- Sending bullet screens
+- Banning users (requires room management permissions)
+- Global banning (requires room management permissions)
+- Adding blocked words (requires room management permissions)
+- Deleting blocked words (requires room management permissions)
 
-__WebSocket 库:  [xfgryujk/blivedm](https://github.com/xfgryujk/blivedm)__
+__WebSocket library:  [xfgryujk/blivedm](https://github.com/xfgryujk/blivedm)__
 
-__OlivaBiliLive-Plugins 插件库:  [HsiangNianian/OlivaBiliLive-Plugins](https://github.com/HsiangNianian/OlivaBiliLive-Plugins)__
+__OlivaBiliLive-Plugins plugin library:  [HsiangNianian/OlivaBiliLive-Plugins](https://github.com/HsiangNianian/OlivaBiliLive-Plugins)__
 
-### 下载
+### Download
 [github release](https://github.com/HsiangNianian/OlivaBiliLive/releases/latest)
 
-### 运行
+### Run
 
-测试运行 : `开播`
+Test run: `Start live broadcast`
 
-### 参考
+### Reference
 
 - [blivedm](https://github.com/xfgryujk/blivedm)
 - [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
