@@ -48,8 +48,8 @@ Test run: `Start`
 
 ## 👨‍🚀 Contributors
 
-<a href="https://github.com/retrofor/iamai/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=retrofor/iamai" />
+<a href="https://github.com/HsiangNianian/OlivaBiliLive/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=HsiangNianian/OlivaBiliLive" />
 </a>
 
 ## 📄 License
