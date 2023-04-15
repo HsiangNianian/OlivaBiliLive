@@ -37,7 +37,10 @@ __WebSocket library:  [xfgryujk/blivedm](https://github.com/xfgryujk/blivedm)__
 __OlivaBiliLive-Plugins plugin library:  [HsiangNianian/OlivaBiliLive-Plugins](https://github.com/HsiangNianian/OlivaBiliLive-Plugins)__
 
 ### ⬇Download
-[github release](https://github.com/HsiangNianian/OlivaBiliLive/releases/latest)
+
+Yes you can download the packaged and uncompressed `opk` plugin file in the [`release`](https://github.com/HsiangNianian/OlivaBiliLive/releases/latest) section on the right side. 
+
+Alternatively, you can also [`fork`](https://github.com/HsiangNianian/OlivaBiliLive/fork) this project and find the compressed file under `artifact` in the [`actions`](https://github.com/HsiangNianian/OlivaBiliLive/actions) section.
 
 ### 🎆Run
 
