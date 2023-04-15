@@ -46,6 +46,16 @@ Alternatively, you can also [`fork`](https://github.com/HsiangNianian/OlivaBiliL
 
 Test run: `Start`
 
+## 👨‍🚀 Contributors
+
+<a href="https://github.com/retrofor/iamai/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=retrofor/iamai" />
+</a>
+
+## 📄 License
+
+[MIT](https://github.com/HsiangNianian/OlivaBiliLive/blob/main/LICENSE) © 2023-PRESENT [简律纯](https://github.com/HsiangNianian)
+
 ### 🧾Reference
 
 - [blivedm](https://github.com/xfgryujk/blivedm)
