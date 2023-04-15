@@ -4,11 +4,11 @@ Due to the lack of updates and maintenance over an extended period of time, ther
 
 ## ⏫Upgrade OlivOS
 
-To continue using the Bilibili Danmaku Dice plugin directly on Qingguo, we recommend upgrading OlivOS to the latest version and choosing to log in with the Bilibili Danmaku protocol.
+To continue using the `OlivaBiliLive` plugin directly on `OlivOS`, I recommend upgrading `OlivOS` to the latest version and choosing to login with the Bilibili Danmaku protocol.
 
 ## ✨Plugin Support
 
-This plugin provides native support and allows you to write various interesting plugins.
+Yes this plugin still provides native support and allows you to write various interesting plugins.
 
 ## 🐱‍🚀Join Group Chat
 
