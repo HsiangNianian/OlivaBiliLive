@@ -14,9 +14,7 @@ This plugin provides native support and allows you to write various interesting 
 
 If you wish to continue using this plugin, you can join our group chat (Group ID: 971050440) and provide more detailed information. I will make efforts to fix it in my free time. 
 
-![](https://ss.jyunko.cn/assets/OlivaBiliLive.png)
-
-## OlivaBiliLive
+## OlivaBiliLive <img align="right" width="400" src="https://ss.jyunko.cn/assets/OlivaBiliLive.png">
 * *Plugin based on [OlivOS](https://github.com/OlivOS-Team/OlivOS)*
 * *Original work of [BililiveBot](https://github.com/eric2788/BiliLiveBot)*
 
