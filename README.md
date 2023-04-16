@@ -46,13 +46,13 @@ Alternatively, you can also [`fork`](https://github.com/HsiangNianian/OlivaBiliL
 
 Test run: `Start`
 
-## 👨‍🚀 Contributors
+### 👨‍🚀 Contributors
 
 <a href="https://github.com/HsiangNianian/OlivaBiliLive/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=HsiangNianian/OlivaBiliLive" />
 </a>
 
-## 📄 License
+### 📄 License
 
 [MIT](https://github.com/HsiangNianian/OlivaBiliLive/blob/main/LICENSE) © 2023-PRESENT [简律纯](https://github.com/HsiangNianian)
 
