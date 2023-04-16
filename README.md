@@ -49,7 +49,7 @@ Test run: `Start`
 ### 👨‍🚀 Contributors
 
 <a href="https://github.com/HsiangNianian/OlivaBiliLive/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=HsiangNianian/OlivaBiliLive" />
+  <img width="150" src="https://contrib.rocks/image?repo=HsiangNianian/OlivaBiliLive" />
 </a>
 
 ### 📄 License
