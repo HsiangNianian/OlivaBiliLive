@@ -44,7 +44,7 @@ Alternatively, you can also [`fork`](https://github.com/HsiangNianian/OlivaBiliL
 
 ### 🎆Run
 
-Test run: `Start`
+Test run: `开播`
 
 ### 👨‍🚀 Contributors
 
